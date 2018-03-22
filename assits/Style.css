@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.Timeline{
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+.Timeline-Start::after{
+  content: "";
+  width: 3px;
+  height: 50vh;
+  position: fixed;
+  left: 50%;
+}
+Timeline{
+  background-color: blue;
+}
