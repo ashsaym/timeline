@@ -1,0 +1,32 @@
+.Timeline {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.Timeline h2 {
+  text-align: center;
+  color: gray;
+}
+
+.Timeline-Start::after, .Timeline-Start::before {
+  display: inline-table;
+}
+
+.Timeline-Start::before {
+  content: "";
+  width: 3px;
+  height: 100vh;
+  position: fixed;
+  left: 50%;
+  background-color: lightblue;
+}
+
+.Timeline-Start::after {
+  content: "";
+  width: 3px;
+  height: 50vh;
+  position: fixed;
+  left: 50%;
+  background-color: blue;
+}

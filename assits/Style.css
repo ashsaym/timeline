@@ -1,20 +1,82 @@
-*{
+* {
   margin: 0;
   border: 0;
   padding: 0;
 }
-.Timeline{
-  height: auto;
-  width: 100%;
-  position: relative;
+
+.bg-1 {
+  background-color: #1abc9c;
+  color: #ffffff;
+  height: 100vh;
+  padding: 7%;
+  border: 10px solid white;
+
 }
-.Timeline-Start::after{
-  content: "";
-  width: 3px;
-  height: 50vh;
-  position: fixed;
-  left: 50%;
+.bg-1 a{
+  text-decoration: none;
+  color: white;
 }
-Timeline{
-  background-color: blue;
+
+.img-circle {
+  border-radius: 50%;
+  border: 5px solid white;
+  display: inline;
+  width: 350px;
+  height: 350px;
+}
+.socialIcons {
+    text-align: center;
+}
+.socialIcons li {
+    background: yellow;
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    border-radius: 2em;
+    overflow:hidden;
+}
+.socialIcons li a {
+    display: block;
+    padding: .5em;
+    max-width: 2.3em;
+    min-width: 2.3em;
+    height: 2.3em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    transition:.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+}
+.socialIcons li i {
+    margin-right:.5em;
+}
+.socialIcons li:hover a {
+    max-width:200px;
+    padding-right:1em;
+}
+.socialIcons .facebook {
+    background: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+    border: 1.5px solid white;
+}
+.socialIcons .twitter {
+    background: #00aced;
+    box-shadow: 0 0 16px #00aced;
+    border: 1.5px solid white;
+}
+.socialIcons .instagram {
+    background: #cd486b;
+    box-shadow: 0 0 16px #cd486b;
+    border: 1.5px solid white;
+}
+.socialIcons .github {
+    background: black;
+    box-shadow: 0 0 16px #c92228;
+    border: 1.5px solid white;
+}
+.socialIcons .linkedin {
+    background: #0077B5;
+    box-shadow: 0 0 16px #666666;
+    border: 1.5px solid white;
 }
